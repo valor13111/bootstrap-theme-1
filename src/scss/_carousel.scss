@@ -1,0 +1,69 @@
+.carousel-container {
+  background-color: #212529;
+  color: #ced4da;
+  padding: 4.5em 0;
+}
+
+.carousel-cell {
+  width: 40%;
+  height: 500px;
+  margin-right: 10px;
+  border-radius: 5px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+}
+
+.carousel-caption {
+  background-color: #292b2c;
+  color: white;
+  opacity: 0.75;
+}
+
+.title-decorative {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #495057;
+  margin-bottom: 1.5rem;
+  display: block;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1280px) {
+  .carousel-cell {
+    width: 40%;
+    height: 300px;
+    margin-right: 2em;
+    border-radius: 5px;
+  }
+
+  .carousel-caption {
+    background-color: #292b2c;
+    color: white;
+    opacity: 0.75;
+    width: 27vw;
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .carousel-cell {
+    width: 40%;
+    height: 180px;
+    margin-right: 3em;
+    border-radius: 5px;
+  }
+
+  .carousel-caption {
+    display: none;
+  }
+
+  .title-decorative {
+    margin-bottom: 0.75em;
+  }
+}
