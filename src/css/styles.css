@@ -113,8 +113,8 @@ body {
 
 .carousel-cell {
   width: 40%;
-  height: 500px;
-  margin-right: 10px;
+  height: 450px;
+  margin-right: 25px;
   border-radius: 5px; }
   .carousel-cell img {
     width: 100%;
