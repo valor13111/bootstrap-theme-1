@@ -30,7 +30,7 @@ gulp.task('js', function() {
 
 gulp.task('server', ['sass'], function() {
   browserSync.init({
-    server: "./src"
+    server: "../bootstrap-theme-1"
   });
 
   gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'], ['sass']);
