@@ -13,6 +13,10 @@ body {
   body {
     font-size: 75%; } }
 
+@media screen and (max-width: 520px) {
+  #wrapper {
+    margin-top: 3.6rem; } }
+
 #wrapper {
   position: relative;
   width: 100%;
@@ -149,10 +153,45 @@ body {
     width: 27vw;
     height: 20vh; } }
 
+@media (max-width: 940px) {
+  .carousel-container .title-decorative {
+    font-size: 0.775rem; }
+  .carousel-container h2 {
+    font-size: 3em; }
+  .carousel-container span {
+    font-size: 1em; }
+  .carousel-cell {
+    width: 40%;
+    height: 225px;
+    margin-right: 3em;
+    border-radius: 5px; }
+  .carousel-caption {
+    height: 15vh;
+    width: 25vw; }
+    .carousel-caption p {
+      display: none; }
+    .carousel-caption h3 {
+      font-size: 1.25em; }
+  .title-decorative {
+    margin-bottom: 0.75em; } }
+
 @media screen and (max-width: 720px) {
   .carousel-cell {
     width: 40%;
     height: 180px;
+    margin-right: 3em;
+    border-radius: 5px; }
+  .carousel-caption {
+    display: none; }
+  .title-decorative {
+    margin-bottom: 0.75em; } }
+
+@media screen and (max-width: 580px) {
+  .carousel-container .title-decorative {
+    font-size: 0.575rem; }
+  .carousel-cell {
+    width: 40%;
+    height: 120px;
     margin-right: 3em;
     border-radius: 5px; }
   .carousel-caption {
