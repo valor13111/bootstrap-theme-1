@@ -1,3 +1,9 @@
+$cream: #E9DCCD;
+$petal: #E3BAB3;
+$burgundy: #613A43;
+$fresh: #849974;
+$charcoal: #36384C;
+
 body {
   margin: 0;
   padding: 0;
@@ -141,6 +147,11 @@ body {
   transition: top 0.6s; /* Transition effect when sliding down (and up) */
   z-index: 5;
 }
+
+/***************************************/
+/*           Cards Offer               */
+/***************************************/
+@import 'cardsoffer';
 
 /***************************************/
 /*             Carousel                */
