@@ -35,6 +35,7 @@ gulp.task('server', ['sass'], function() {
 
   gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'], ['sass']);
   gulp.watch("*.html").on('change', browserSync.reload);
+  gulp.watch(['src/templates/partials/*.ejs', 'src/templates/*.ejs']).on('change', browserSync.reload);
 });
 
 gulp.task('default', ['js', 'server', 'flickity', 'ejs']);
